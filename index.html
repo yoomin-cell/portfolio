@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="PM 포트폴리오 - 비전을 현실로 만드는 프로젝트 매니저" />
-  <title>포트폴리오 | 프로젝트 매니저</title>
+  <meta name="description" content="유민 포트폴리오 - 정책연구 및 정부사업 관리 전문가" />
+  <title>유민 | 포트폴리오</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
@@ -12,21 +12,14 @@
 </head>
 <body>
 
-  <!-- ============================================
-    ✏️  수정 가이드 (여기만 바꾸면 됩니다!)
-    아래 내용을 찾아 직접 텍스트를 수정해 주세요.
-    영역은 <!-- SECTION: ... --> 주석으로 구분되어 있습니다.
-  ============================================ -->
-
   <!-- NAV -->
   <nav id="navbar">
     <div class="nav-logo">
-      <!-- ✏️ 로고에 표시할 이름/이니셜을 수정하세요 -->
-      <span class="logo-text">YN<span class="logo-dot">.</span></span>
+      <span class="logo-text">Yoomin<span class="logo-dot">.</span></span>
     </div>
     <ul class="nav-links">
       <li><a href="#about">소개</a></li>
-      <li><a href="#skills">스킬</a></li>
+      <li><a href="#skills">핵심역량</a></li>
       <li><a href="#projects">프로젝트</a></li>
       <li><a href="#contact">연락처</a></li>
     </ul>
@@ -40,19 +33,17 @@
     <canvas id="particleCanvas"></canvas>
     <div class="hero-content">
       <p class="hero-greeting">안녕하세요, 저는</p>
-      <!-- ✏️ 본인 이름으로 변경하세요 -->
-      <h1 class="hero-name">Your Name</h1>
+      <h1 class="hero-name">유민</h1>
       <div class="hero-role">
         <span class="role-prefix">저는 </span>
-        <!-- ✏️ 강조하고 싶은 역할/키워드를 배열에 추가/수정하세요 -->
-        <span class="typing-text" id="typingText"></span>
+        <!-- JS가 이 부분을 타이핑 효과로 보여줍니다 (script.js에서 텍스트 감지) -->
+        <span class="typing-text" id="typingText" data-words="정책연구 전문가, 정부사업 관리자, 사업기획 PM"></span>
         <span class="cursor">|</span>
         <span class="role-suffix"> 입니다.</span>
       </div>
-      <!-- ✏️ 한 줄 자기소개를 수정하세요 -->
-      <p class="hero-sub">복잡한 문제를 구조화하고, 팀을 이끌어 목표를 달성하는 PM.</p>
+      <p class="hero-sub">정부지원 사업의 기획부터 평가까지 전문적으로 관리하며, 현장 데이터 기반의 기획력을 갖춘 사업관리 전문가입니다.</p>
       <div class="hero-cta">
-        <a href="#projects" class="btn-primary" id="heroCta1">프로젝트 보기</a>
+        <a href="#projects" class="btn-primary" id="heroCta1">주요 프로젝트</a>
         <a href="#contact" class="btn-ghost" id="heroCta2">연락하기</a>
       </div>
     </div>
@@ -65,57 +56,53 @@
   <!-- SECTION: ABOUT -->
   <section id="about">
     <div class="section-container">
-      <div class="section-label">ABOUT</div>
-      <h2 class="section-title">저는 이런 <span class="gradient-text">PM</span>입니다</h2>
+      <div class="section-label">ABOUT ME</div>
+      <h2 class="section-title">저는 이런 <span class="gradient-text">전문가</span>입니다</h2>
       <div class="about-grid">
         <div class="about-text">
-          <!-- ✏️ 자기소개 본문을 수정하세요 (문단 단위로 수정) -->
           <p>
-            저는 제품의 처음부터 끝까지를 책임지는 프로젝트 매니저입니다. 
-            사용자의 니즈를 파악하고, 그것을 실현 가능한 로드맵으로 전환하여 
-            개발팀과 함께 목표를 달성하는 것에 전문성을 가지고 있습니다.
+            정부지원 교육훈련 및 중소기업 지원사업의 <strong>기획·운영·평가 전 주기</strong>를 빈틈없이 수행해 온 사업관리 전문가입니다. 
+            단순한 행정 처리를 넘어, 현장의 실질적인 데이터를 기반으로 산업 수요를 포착하고 분석하여 성공적인 결과보고서를 이끌어냅니다.
           </p>
           <p>
-            데이터 기반의 의사결정과 원활한 커뮤니케이션을 통해 
-            프로젝트의 리스크를 최소화하고 일정을 준수하는 것을 
-            최우선으로 생각합니다.
+            경제대학원 석사과정을 통해 탄탄한 이론적 사고와 실무 중심의 해결 역량을 동시에 겸비하고 있으며, 
+            다양한 이해관계자를 조율하며 기관과 기업 모두가 만족하는 최상의 성과를 창출해 냅니다.
           </p>
-          <!-- ✏️ 주요 통계를 수정하세요 -->
           <div class="about-stats">
             <div class="stat-item">
-              <span class="stat-number">3+</span>
-              <span class="stat-label">years 경력</span>
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Years 경력</span>
             </div>
             <div class="stat-item">
-              <span class="stat-number">9+</span>
-              <span class="stat-label">완료 프로젝트</span>
+              <span class="stat-number">90+</span>
+              <span class="stat-label">평균 만족도(점)</span>
             </div>
             <div class="stat-item">
-              <span class="stat-number">95%</span>
-              <span class="stat-label">일정 준수율</span>
+              <span class="stat-number">10+</span>
+              <span class="stat-label">정부·지원사업 운영</span>
             </div>
           </div>
         </div>
         <div class="about-visual">
           <div class="about-card glass-card">
             <div class="card-icon">🎯</div>
-            <h3>목표 중심</h3>
-            <p>명확한 OKR 설정과 지속적인 트래킹</p>
-          </div>
-          <div class="about-card glass-card">
-            <div class="card-icon">🤝</div>
-            <h3>협업 주도</h3>
-            <p>개발, 디자인, 마케팅 팀 간 가교 역할</p>
+            <h3>전주기 관리</h3>
+            <p>기획부터 운영, 정산, 최종 결과보고까지 빈틈없는 관리</p>
           </div>
           <div class="about-card glass-card">
             <div class="card-icon">📊</div>
             <h3>데이터 기반</h3>
-            <p>수치로 증명하는 의사결정과 회고</p>
+            <p>수요조사, 만족도 및 AI융합도에 따른 객관적 성과 분석</p>
           </div>
           <div class="about-card glass-card">
-            <div class="card-icon">🚀</div>
-            <h3>빠른 실행</h3>
-            <p>애자일 방법론으로 빠른 출시 사이클</p>
+            <div class="card-icon">🤝</div>
+            <h3>이해관계자 조율</h3>
+            <p>공공기관, 강사, 기업, 컨설턴트 4자 간의 원활한 소통</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="card-icon">💡</div>
+            <h3>정책적 사고</h3>
+            <p>경제대학원 석사 과정 기반의 밀도 있는 비즈니스 연구</p>
           </div>
         </div>
       </div>
@@ -125,272 +112,232 @@
   <!-- SECTION: SKILLS -->
   <section id="skills">
     <div class="section-container">
-      <div class="section-label">SKILLS</div>
+      <div class="section-label">CORE COMPETENCIES</div>
       <h2 class="section-title">핵심 <span class="gradient-text">역량</span></h2>
       <div class="skills-grid">
         <div class="skill-category">
-          <h3 class="skill-cat-title">📋 PM 방법론</h3>
+          <h3 class="skill-cat-title">📋 사업관리 (PM)</h3>
           <div class="skill-tags">
-            <!-- ✏️ 스킬 태그를 자유롭게 추가/수정/삭제할 수 있습니다 -->
-            <span class="skill-tag">Agile / Scrum</span>
-            <span class="skill-tag">Kanban</span>
-            <span class="skill-tag">OKR</span>
-            <span class="skill-tag">Waterfall</span>
-            <span class="skill-tag">Lean UX</span>
+            <span class="skill-tag">정부위탁사업 기획/운영</span>
+            <span class="skill-tag">예산 정산 및 회계</span>
+            <span class="skill-tag">제안서 작성</span>
+            <span class="skill-tag">착수·결과 보고서 작성</span>
           </div>
         </div>
         <div class="skill-category">
-          <h3 class="skill-cat-title">🛠 협업 도구</h3>
+          <h3 class="skill-cat-title">📈 조사 및 분석</h3>
           <div class="skill-tags">
-            <span class="skill-tag">Jira</span>
-            <span class="skill-tag">Confluence</span>
-            <span class="skill-tag">Notion</span>
-            <span class="skill-tag">Slack</span>
-            <span class="skill-tag">Figma</span>
-            <span class="skill-tag">Miro</span>
+            <span class="skill-tag">수요조사 설계</span>
+            <span class="skill-tag">만족도 조사 분석</span>
+            <span class="skill-tag">AI융합도 성과 측정</span>
+            <span class="skill-tag">현장 데이터 수집</span>
           </div>
         </div>
         <div class="skill-category">
-          <h3 class="skill-cat-title">📈 데이터 & 분석</h3>
+          <h3 class="skill-cat-title">🛠 Tools & Software</h3>
           <div class="skill-tags">
-            <span class="skill-tag">Google Analytics</span>
-            <span class="skill-tag">Mixpanel</span>
-            <span class="skill-tag">SQL (기초)</span>
-            <span class="skill-tag">Looker Studio</span>
+            <span class="skill-tag">Notion (웹사이트 제작 수준)</span>
+            <span class="skill-tag">MS Word</span>
+            <span class="skill-tag">MS Excel</span>
+            <span class="skill-tag">PowerPoint</span>
           </div>
         </div>
         <div class="skill-category">
-          <h3 class="skill-cat-title">🎯 기획 역량</h3>
+          <h3 class="skill-cat-title">🗣 커뮤니케이션</h3>
           <div class="skill-tags">
-            <span class="skill-tag">PRD 작성</span>
-            <span class="skill-tag">유저 스토리</span>
-            <span class="skill-tag">와이어프레임</span>
-            <span class="skill-tag">A/B 테스트</span>
-            <span class="skill-tag">로드맵 수립</span>
+            <span class="skill-tag">다기관 이해관계자 조율</span>
+            <span class="skill-tag">강사 및 MD 섭외 관리</span>
+            <span class="skill-tag">영업 및 신규 거래처 발굴</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SECTION: PROJECTS (9개) -->
+  <!-- SECTION: PROJECTS -->
   <section id="projects">
     <div class="section-container">
-      <div class="section-label">PROJECTS</div>
-      <h2 class="section-title">주요 <span class="gradient-text">프로젝트</span></h2>
+      <div class="section-label">EXPERIENCE</div>
+      <h2 class="section-title">주요 <span class="gradient-text">사업 및 프로젝트</span></h2>
       <div class="projects-filter">
-        <button class="filter-btn active" data-filter="all" id="filterAll">전체</button>
-        <button class="filter-btn" data-filter="app" id="filterApp">앱/서비스</button>
-        <button class="filter-btn" data-filter="platform" id="filterPlatform">플랫폼</button>
-        <button class="filter-btn" data-filter="growth" id="filterGrowth">그로스</button>
+        <button class="filter-btn active" data-filter="all" id="filterAll">전체보기</button>
+        <button class="filter-btn" data-filter="app" id="filterApp">교육훈련 사업</button>
+        <button class="filter-btn" data-filter="platform" id="filterPlatform">기업 지원/컨설팅</button>
+        <button class="filter-btn" data-filter="growth" id="filterGrowth">상담회/행사 운영</button>
       </div>
       <div class="projects-grid" id="projectsGrid">
 
-        <!-- ✏️ 프로젝트 카드 수정 방법:
-             - title: 프로젝트 이름
-             - category: "app" / "platform" / "growth" 중 하나
-             - period: 기간
-             - role: 본인 역할
-             - result: 핵심 성과 (숫자로!)
-             - tags: 관련 기술/도구 태그
-             - description: 한두 줄 설명
-        -->
-
         <div class="project-card glass-card" data-category="app">
           <div class="project-header">
-            <span class="project-emoji">📱</span>
-            <span class="project-category-badge">앱/서비스</span>
+            <span class="project-emoji">💻</span>
+            <span class="project-category-badge">교육훈련</span>
           </div>
-          <h3 class="project-title">O2O 배달 앱 리뉴얼</h3>
-          <p class="project-desc">기존 앱 UX 전면 개선 및 주문 전환율 향상을 위한 리디자인 프로젝트 총괄</p>
+          <h3 class="project-title">물류유통 AI역량강화교육 총괄</h3>
+          <p class="project-desc">2년 연속 수주(연 3~4억 규모) 주력사업의 수요조사, 커리큘럼 설계 및 운영 총괄</p>
           <div class="project-meta">
-            <span>📅 2024.03 – 2024.09</span>
-            <span>👤 PM (팀 8명)</span>
+            <span>📅 2023.07 – 2025.12</span>
+            <span>👤 전담 운영</span>
           </div>
           <div class="project-result">
             <span class="result-label">핵심 성과</span>
-            <span class="result-value">전환율 +23%</span>
+            <span class="result-value">수료생 210명 / 만족도 91.2</span>
           </div>
           <div class="project-tags">
-            <span class="p-tag">Figma</span>
-            <span class="p-tag">Jira</span>
-            <span class="p-tag">Scrum</span>
+            <span class="p-tag">수요조사</span>
+            <span class="p-tag">결과보고서</span>
+            <span class="p-tag">Notion 웹구축</span>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="app">
+          <div class="project-header">
+            <span class="project-emoji">🎓</span>
+            <span class="project-category-badge">교육훈련</span>
+          </div>
+          <h3 class="project-title">전국 소공인 역량강화 프로그램</h3>
+          <p class="project-desc">미접촉 소공인특화지원센터를 직접 발굴 및 계약 체결하여 110시간 교육 수행</p>
+          <div class="project-meta">
+            <span>📅 2024.03 – 2024.12</span>
+            <span>👤 기획/영업/운영</span>
+          </div>
+          <div class="project-result">
+            <span class="result-label">핵심 성과</span>
+            <span class="result-value">신규 7개 기관 확보</span>
+          </div>
+          <div class="project-tags">
+            <span class="p-tag">제안서작성</span>
+            <span class="p-tag">신규영업</span>
+            <span class="p-tag">강사섭외</span>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="app">
+          <div class="project-header">
+            <span class="project-emoji">🛠</span>
+            <span class="project-category-badge">교육훈련</span>
+          </div>
+          <h3 class="project-title">중소기업 A/S 교육 운영</h3>
+          <p class="project-desc">4개 주제, 총 12회차(96시간) 교육과정 운영 총괄 및 교재 제작, 결과보고서 도출</p>
+          <div class="project-meta">
+            <span>📅 2023.08 – 2023.12</span>
+            <span>👤 운영 총괄</span>
+          </div>
+          <div class="project-result">
+            <span class="result-label">핵심 성과</span>
+            <span class="result-value">200개사 수료 달성</span>
+          </div>
+          <div class="project-tags">
+            <span class="p-tag">교육홍보</span>
+            <span class="p-tag">일정관리</span>
+            <span class="p-tag">보고서작성</span>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="app">
+          <div class="project-header">
+            <span class="project-emoji">🛒</span>
+            <span class="project-category-badge">교육지원</span>
+          </div>
+          <h3 class="project-title">농산물 온라인 마케터 육성</h3>
+          <p class="project-desc">지원사업 제안서 작성, 교육생 데이터 취합 및 구매상담회 현장 총괄 운영</p>
+          <div class="project-meta">
+            <span>📅 2025.03 – 2025.12</span>
+            <span>👤 기획/운영참여</span>
+          </div>
+          <div class="project-result">
+            <span class="result-label">핵심 업무</span>
+            <span class="result-value">기업 선정평가 운영</span>
+          </div>
+          <div class="project-tags">
+            <span class="p-tag">제안서</span>
+            <span class="p-tag">MD모집</span>
+            <span class="p-tag">만족도분석</span>
           </div>
         </div>
 
         <div class="project-card glass-card" data-category="platform">
           <div class="project-header">
             <span class="project-emoji">🏢</span>
-            <span class="project-category-badge">플랫폼</span>
+            <span class="project-category-badge">기업 지원</span>
           </div>
-          <h3 class="project-title">B2B SaaS 관리자 플랫폼</h3>
-          <p class="project-desc">중소기업 대상 SaaS 관리자 대시보드 신규 구축, 요구사항 정의부터 론칭까지</p>
+          <h3 class="project-title">중소유통 점포컨설팅 운영</h3>
+          <p class="project-desc">참여 기업 모집, 컨설턴트 매칭 및 일정 조율 등 전반적인 B2B 컨설팅 관리 수행</p>
           <div class="project-meta">
-            <span>📅 2023.08 – 2024.01</span>
-            <span>👤 PM (팀 12명)</span>
+            <span>📅 2025.03 – 2025.12</span>
+            <span>👤 운영 관리</span>
           </div>
           <div class="project-result">
-            <span class="result-label">핵심 성과</span>
-            <span class="result-value">온보딩 시간 -40%</span>
+            <span class="result-label">핵심 업무</span>
+            <span class="result-value">컨설턴트-기업 매칭</span>
           </div>
           <div class="project-tags">
-            <span class="p-tag">Confluence</span>
-            <span class="p-tag">Notion</span>
-            <span class="p-tag">OKR</span>
+            <span class="p-tag">중간보고서</span>
+            <span class="p-tag">일정조율</span>
           </div>
         </div>
 
         <div class="project-card glass-card" data-category="growth">
           <div class="project-header">
-            <span class="project-emoji">📈</span>
-            <span class="project-category-badge">그로스</span>
+            <span class="project-emoji">🤝</span>
+            <span class="project-category-badge">상담/행사</span>
           </div>
-          <h3 class="project-title">신규 유저 리텐션 개선</h3>
-          <p class="project-desc">첫 30일 리텐션율을 높이기 위한 온보딩 플로우 A/B 테스트 및 데이터 분석 주도</p>
+          <h3 class="project-title">연간 대규모 MD 상담회 운영</h3>
+          <p class="project-desc">기관 소통, 타임테이블 제작, 노쇼/품질 관리 및 정산, 최종 결과보고서 작성</p>
           <div class="project-meta">
-            <span>📅 2023.04 – 2023.07</span>
-            <span>👤 PM (팀 6명)</span>
+            <span>📅 2022.01 – 2022.12</span>
+            <span>👤 현장/행정 관리</span>
           </div>
           <div class="project-result">
-            <span class="result-label">핵심 성과</span>
-            <span class="result-value">D30 리텐션 +18%</span>
+            <span class="result-label">운영 횟수</span>
+            <span class="result-value">연간 50건 달성</span>
           </div>
           <div class="project-tags">
-            <span class="p-tag">Mixpanel</span>
-            <span class="p-tag">A/B Test</span>
-            <span class="p-tag">SQL</span>
-          </div>
-        </div>
-
-        <div class="project-card glass-card" data-category="app">
-          <div class="project-header">
-            <span class="project-emoji">💬</span>
-            <span class="project-category-badge">앱/서비스</span>
-          </div>
-          <h3 class="project-title">사내 커뮤니케이션 툴 도입</h3>
-          <p class="project-desc">전사 협업 도구 도입 기획 및 마이그레이션 PM, 500명 이상 임직원 대상 롤아웃</p>
-          <div class="project-meta">
-            <span>📅 2022.11 – 2023.02</span>
-            <span>👤 PM (TF 10명)</span>
-          </div>
-          <div class="project-result">
-            <span class="result-label">핵심 성과</span>
-            <span class="result-value">이메일 트래픽 -35%</span>
-          </div>
-          <div class="project-tags">
-            <span class="p-tag">Slack</span>
-            <span class="p-tag">Notion</span>
-            <span class="p-tag">변화관리</span>
-          </div>
-        </div>
-
-        <div class="project-card glass-card" data-category="platform">
-          <div class="project-header">
-            <span class="project-emoji">🛒</span>
-            <span class="project-category-badge">플랫폼</span>
-          </div>
-          <h3 class="project-title">이커머스 검색 개선 프로젝트</h3>
-          <p class="project-desc">검색 품질 개선 및 개인화 추천 기능 개발 기획, 데이터 분석팀과 협업</p>
-          <div class="project-meta">
-            <span>📅 2022.06 – 2022.10</span>
-            <span>👤 PM (팀 9명)</span>
-          </div>
-          <div class="project-result">
-            <span class="result-label">핵심 성과</span>
-            <span class="result-value">검색 클릭률 +31%</span>
-          </div>
-          <div class="project-tags">
-            <span class="p-tag">GA4</span>
-            <span class="p-tag">Looker</span>
-            <span class="p-tag">Agile</span>
+            <span class="p-tag">노쇼방지</span>
+            <span class="p-tag">정산관리</span>
+            <span class="p-tag">타임테이블</span>
           </div>
         </div>
 
         <div class="project-card glass-card" data-category="growth">
           <div class="project-header">
-            <span class="project-emoji">🎁</span>
-            <span class="project-category-badge">그로스</span>
+            <span class="project-emoji">🌟</span>
+            <span class="project-category-badge">상담/행사</span>
           </div>
-          <h3 class="project-title">바이럴 추천 프로그램</h3>
-          <p class="project-desc">친구 초대 기반 바이럴 루프 설계 및 리워드 시스템 기획, 4주 만에 론칭</p>
+          <h3 class="project-title">북한이탈주민 품평회 & 컨설팅</h3>
+          <p class="project-desc">기관·컨설턴트·참여기업 간의 복잡한 3자 일정을 조율하고 현장 품평회를 성료</p>
           <div class="project-meta">
-            <span>📅 2022.01 – 2022.04</span>
-            <span>👤 PM (팀 5명)</span>
+            <span>📅 2023.03 – 2023.07</span>
+            <span>👤 현장 운영</span>
           </div>
           <div class="project-result">
-            <span class="result-label">핵심 성과</span>
-            <span class="result-value">신규 가입 +47%</span>
+            <span class="result-label">주요 역량</span>
+            <span class="result-value">3자 커뮤니케이션</span>
           </div>
           <div class="project-tags">
-            <span class="p-tag">Lean UX</span>
-            <span class="p-tag">Miro</span>
-            <span class="p-tag">Kanban</span>
+            <span class="p-tag">컨설턴트섭외</span>
+            <span class="p-tag">결과보고서</span>
+            <span class="p-tag">예산정산</span>
           </div>
         </div>
-
-        <div class="project-card glass-card" data-category="app">
-          <div class="project-header">
-            <span class="project-emoji">🏥</span>
-            <span class="project-category-badge">앱/서비스</span>
-          </div>
-          <h3 class="project-title">헬스케어 앱 MVP 출시</h3>
-          <p class="project-desc">헬스케어 스타트업 MVP 설계부터 앱스토어 배포까지 0→1 PM 경험</p>
-          <div class="project-meta">
-            <span>📅 2021.07 – 2021.12</span>
-            <span>👤 PM (팀 7명)</span>
-          </div>
-          <div class="project-result">
-            <span class="result-label">핵심 성과</span>
-            <span class="result-value">MAU 1만 달성</span>
-          </div>
-          <div class="project-tags">
-            <span class="p-tag">Figma</span>
-            <span class="p-tag">Jira</span>
-            <span class="p-tag">PRD</span>
-          </div>
-        </div>
-
-        <div class="project-card glass-card" data-category="platform">
-          <div class="project-header">
-            <span class="project-emoji">🎓</span>
-            <span class="project-category-badge">플랫폼</span>
-          </div>
-          <h3 class="project-title">에듀테크 LMS 구축</h3>
-          <p class="project-desc">온라인 교육 플랫폼 LMS 신규 구축 PM, 강사/수강생 양면 시장 기획</p>
-          <div class="project-meta">
-            <span>📅 2021.01 – 2021.06</span>
-            <span>👤 PM (팀 11명)</span>
-          </div>
-          <div class="project-result">
-            <span class="result-label">핵심 성과</span>
-            <span class="result-value">수강 완료율 +28%</span>
-          </div>
-          <div class="project-tags">
-            <span class="p-tag">Waterfall</span>
-            <span class="p-tag">Confluence</span>
-            <span class="p-tag">Miro</span>
-          </div>
-        </div>
-
+        
         <div class="project-card glass-card" data-category="growth">
           <div class="project-header">
-            <span class="project-emoji">💳</span>
-            <span class="project-category-badge">그로스</span>
+            <span class="project-emoji">🏫</span>
+            <span class="project-category-badge">상담/행사</span>
           </div>
-          <h3 class="project-title">구독 전환율 최적화</h3>
-          <p class="project-desc">무료→유료 구독 전환 퍼널 분석 및 개선, 페이월 UX 리디자인 기획 주도</p>
+          <h3 class="project-title">대학 산학협력단 품평회</h3>
+          <p class="project-desc">산학협력단 소통을 통해 품평 방식 조율 및 타임테이블 제작, 현장 통제 수행</p>
           <div class="project-meta">
-            <span>📅 2020.08 – 2020.12</span>
-            <span>👤 PM (팀 6명)</span>
+            <span>📅 2022.10 – 2022.12</span>
+            <span>👤 운영 관리</span>
           </div>
           <div class="project-result">
-            <span class="result-label">핵심 성과</span>
-            <span class="result-value">구독 전환율 +19%</span>
+            <span class="result-label">핵심 업무</span>
+            <span class="result-value">운영 방식 기획/조율</span>
           </div>
           <div class="project-tags">
-            <span class="p-tag">Mixpanel</span>
-            <span class="p-tag">A/B Test</span>
-            <span class="p-tag">OKR</span>
+            <span class="p-tag">기관소통</span>
+            <span class="p-tag">현장운영</span>
           </div>
         </div>
 
@@ -402,31 +349,30 @@
   <section id="contact">
     <div class="section-container">
       <div class="section-label">CONTACT</div>
-      <h2 class="section-title">함께 <span class="gradient-text">일해요</span></h2>
-      <p class="contact-sub">새로운 기회나 협업 제안은 언제든지 환영합니다.</p>
+      <h2 class="section-title">새로운 도전을 <span class="gradient-text">기다립니다</span></h2>
+      <p class="contact-sub">정책연구 및 공공기관·비영리재단의 정부사업 분야로 역량을 확장하고자 합니다.</p>
       <div class="contact-grid">
-        <!-- ✏️ 아래 링크(href)와 내용을 본인 것으로 수정하세요 -->
-        <a href="mailto:your@email.com" class="contact-card glass-card" id="contactEmail">
+        <a href="mailto:apdleh0715@gmail.com" class="contact-card glass-card" id="contactEmail">
           <div class="contact-icon">✉️</div>
           <div class="contact-info">
             <span class="contact-type">이메일</span>
-            <span class="contact-value">your@email.com</span>
+            <span class="contact-value">apdleh0715@gmail.com</span>
           </div>
           <span class="contact-arrow">→</span>
         </a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-card glass-card" id="contactLinkedIn">
-          <div class="contact-icon">💼</div>
+        <a href="https://github.com/yoomin-cell" target="_blank" class="contact-card glass-card" id="contactGitHub">
+          <div class="contact-icon">💻</div>
           <div class="contact-info">
-            <span class="contact-type">LinkedIn</span>
-            <span class="contact-value">linkedin.com/in/yourprofile</span>
+            <span class="contact-type">GitHub</span>
+            <span class="contact-value">github.com/yoomin-cell</span>
           </div>
           <span class="contact-arrow">→</span>
         </a>
-        <a href="https://notion.so/yourpage" target="_blank" class="contact-card glass-card" id="contactNotion">
+        <a href="#" target="_blank" class="contact-card glass-card" id="contactNotion">
           <div class="contact-icon">📝</div>
           <div class="contact-info">
-            <span class="contact-type">Notion 이력서</span>
-            <span class="contact-value">notion.so/yourpage</span>
+            <span class="contact-type">이력서 다운로드</span>
+            <span class="contact-value">준비 중</span>
           </div>
           <span class="contact-arrow">→</span>
         </a>
@@ -437,10 +383,9 @@
   <!-- FOOTER -->
   <footer id="footer">
     <p>
-      <!-- ✏️ 이름을 수정하세요 -->
-      © 2026 Your Name · PM Portfolio
+      © 2026 유민 (Yoomin) · 정부사업 & 정책연구 포트폴리오
     </p>
-    <p class="footer-sub">Made with ❤️ and a lot of OKR</p>
+    <p class="footer-sub">데이터로 분석하고 기획으로 증명합니다.</p>
   </footer>
 
   <script src="script.js"></script>
